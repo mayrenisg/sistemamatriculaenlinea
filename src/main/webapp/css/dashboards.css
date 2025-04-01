@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03/03/2025, 9:55:58 p. m.
+    Author     : mayre
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #10466a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    height: 12vh;
+}
+
+header img{
+    max-height: 100%;  
+    max-width: 100%;  
+    object-fit: contain; 
+    padding: 10px; 
+}
+
+footer {
+    height: 10vh;
+}
+
+main {
+    height: 78vh;
+    width: 100%; 
+    display: flex;
+
+}
+
+main aside {
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    background-color: #10466a;
+    height: 100%; 
+    border: white solid 2px;
+}
+
+nav{
+    text-align: center;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.contenido{
+    display:block;
+}
+
+
