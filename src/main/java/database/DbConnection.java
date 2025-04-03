@@ -12,9 +12,9 @@ public class DbConnection {
     private static DbConnection instancia;
     private Connection conexion;
     
-    private final String url = "jdbc:sqlserver://localhost:1433;databaseName=Sistema_Matricula;user=sa;password=contrasena12345;encrypt=true;trustServerCertificate=true";
-    private final String usuario = "sa";
-    private final String contrasena= "contrasena12345";
+    private final String url = "jdbc:sqlserver://localhost:1433;databaseName=xxxxxxx;user=xxxxx;password=xxxx;encrypt=true;trustServerCertificate=true";
+    private final String usuario = "xx";
+    private final String contrasena= "xxxxx";
     
     private DbConnection(){
         if (conexion == null) { 
